@@ -14,7 +14,7 @@ load_dotenv()
 # 프로젝트 이름
 logging.langsmith("Perplexity")
 
-st.title("Perplexity 💬")
+st.title("티니유니 GPT 💬")
 st.markdown(
     "LLM에 **웹검색 기능** 을 추가한 [Perplexity](https://www.perplexity.ai/) 클론 입니다. _멀티턴_ 대화를 지원합니다."
 )
@@ -36,7 +36,7 @@ with st.sidebar:
     # 초기화 버튼 생성
     clear_btn = st.button("대화 초기화")
 
-    st.markdown("made by [@teddynote](https://youtube.com/c/teddynote)")
+    st.markdown("made by dami9350")
 
     # 모델 선택 메뉴
     selected_model = st.selectbox("LLM 선택", ["gpt-4o", "gpt-4o-mini"], index=0)
